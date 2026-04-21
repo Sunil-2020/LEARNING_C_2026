@@ -1,1 +1,44 @@
+cd ~/LEARNING_C_2026
 
+# Streak Badge
+cat > badges/1_streak.json << EOF
+{
+  "schemaVersion": 1,
+  "label": "Streak", 
+  "message": "0 Days",
+  "color": "brightgreen"
+}
+EOF
+
+# Programs Badge  
+cat > badges/1_programs.json << EOF
+{
+  "schemaVersion": 1,
+  "label": "Programs",
+  "message": "0",
+  "color": "blue"
+}
+EOF
+
+# Status Badge
+cat > badges/1_status.json << EOF
+{
+  "schemaVersion": 1,
+  "label": "Status", 
+  "message": "🚀 Ready",
+  "color": "yellow"
+}
+EOF
+
+# Mastery Badge
+cat > badges/1_mastery.json << EOF
+{
+  "schemaVersion": 1,
+  "label": "C Mastery",
+  "message": "0%",
+  "color": "gray"
+}
+EOF
+
+mkdir -p badges  # Folder बन गया?
+ls badges/       # 4 files दिखें?
